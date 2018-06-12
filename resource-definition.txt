@@ -1,0 +1,25 @@
+# Restful web services
+
+Application - >  Social media application
+
+Entities :
+    1. User
+    2. Post
+
+Relationship : User can have one or more posts.
+
+# Resources
+
+
+1. Retrieve all user -> GET /users
+2. Create a User ->     POST /users
+3. Retrieve one user -> GET /users/{id}
+4. Delete one user ->   DELETE /users/{id}
+
+
+# Posts
+
+1. Retrieve all posts for a user -> GET /users/{id}/posts
+2. Create a post for a user ->      POST /users/{id}/posts
+3. Retrieves details of a post ->   GET /users/{id}/posts/{postId}
+
